@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "lib_microbit_connector")(type "KiCad")(uri "${KIPRJMOD}/microbit_connector/lib_microbit_connector/lib_microbit_connector.kicad_sym")(options "")(descr ""))
+)
