@@ -1,8 +1,9 @@
 # micro:bit eInk Feather Adaptor
 
+<p align="center"><img width="50%" alt="front-render-v1 0" src="docs/img/front-render-v1.0.png"></p>
+
 This is a simple FeatherWing to micro:bit adaptor board designed specifically
 for the Adafruit 2.9" Grayscale eInk / ePaper Display FeatherWing:
-
 https://www.adafruit.com/product/4777
 
 
@@ -21,6 +22,7 @@ https://www.adafruit.com/product/4777
 - [eInk FeatherWing product page](https://www.adafruit.com/product/4777)
 - [Adafruit documentation for the eInk FeatherWing](https://learn.adafruit.com/adafruit-eink-display-breakouts/grayscale-29-overview)
 - [Documentation for the family of Adafruit 2.9" eInk Display Breakouts and FeatherWings](https://learn.adafruit.com/adafruit-2-9-eink-display-breakouts-and-featherwings/)
+- Project Changelog: [CHANGELOG.md](CHANGELOG.md)
 
 ## License & Attribution
 
