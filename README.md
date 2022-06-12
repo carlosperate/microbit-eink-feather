@@ -24,7 +24,10 @@ https://www.adafruit.com/product/4777
 - [Documentation for the family of Adafruit 2.9" eInk Display Breakouts and FeatherWings](https://learn.adafruit.com/adafruit-2-9-eink-display-breakouts-and-featherwings/)
 - Project Changelog: [CHANGELOG.md](CHANGELOG.md)
 
-## License & Attribution
+## License & Attributions
+
+The Arduino test sketch is based on the
+[Adafruit EDP ThinkInk_gray4 example][8].
 
 The micro:bit edge connector is MIT Licensed and comes from:
 https://github.com/anthonykirby/kicad_microbit_connector
@@ -38,5 +41,6 @@ is licensed under [the same terms as the KiCad libraries][9], which is the
 exception that says that electronic designs based on this repository
 are not bound by the attribution and share-alike conditions.
 
+[8]: https://github.com/adafruit/Adafruit_EPD/blob/4.4.3/examples/ThinkInk_gray4/ThinkInk_gray4.ino
 [9]: https://forum.kicad.info/t/kicad-library-licensing/7856
 [10]: https://creativecommons.org/licenses/by-sa/4.0/legalcode
