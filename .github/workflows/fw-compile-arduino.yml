@@ -1,0 +1,28 @@
+name: Compile Test Arduino Sketch
+
+on:
+  push:
+    branches: '*'
+  pull_request:
+    branches: '*'
+
+jobs:
+  gen-image:
+    runs-on: ubuntu-latest
+    name: Arduino Compile
+    steps:
+      - uses: actions/checkout@v3
+      - uses: arduino/compile-sketches@v1
+        with:
+          cli-version: "latest"
+          verbose: true
+          enable-deltas-report: true
+          platforms: |
+            - name: "sandeepmistry:nRF5"
+              source-url: "https://sandeepmistry.github.io/arduino-nRF5/package_nRF5_boards_index.json"
+              version: "latest"
+          fqbn: "sandeepmistry:nRF5:BBCmicrobitV2"
+          libraries: |
+            - name: "Adafruit EPD"
+            - name: "Adafruit GFX Library"
+          sketch-paths: "firmware/eink_feather"
