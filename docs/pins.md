@@ -26,7 +26,7 @@ not affect their operation.
 | MI     | MISO     | P14 (MISO)    | | D6    | SRCS     | P8            |
 | RX     | -        | -             | | D5    | SDCS     | P16           |
 | TX     | -        | -             | | SCL   | -        | -             |
-| NC     | -        | -             | | SDA   | -        | -             |
+| Free   | -        | -             | | SDA   | -        | -             |
 
 Feather pins:
 - RST - Connected to the Reset button in the eInk feather
@@ -43,7 +43,10 @@ eInk feather pinout from:
 https://learn.adafruit.com/adafruit-eink-display-breakouts/pinouts-2
 
 
-## Pinouts 
+## Pinouts
+
+This section contains the micro:bit V2 and Generic Feather pinouts for
+reference.
 
 ### micro:bit V2 pinout
 
@@ -74,4 +77,4 @@ https://learn.adafruit.com/adafruit-feather/feather-specification#pin-naming-309
 | MI   | D6   |
 | RX   | D5   |
 | TX   | SCL  |
-| GND  | SDA  |
+| Free | SDA  |
