@@ -1,6 +1,7 @@
 /* 
  * This test file has been modified from Adafruit's EDP library
  * ThinkInk_tricolor.ino example.
+ * All modifications licensed MIT as well.
  */
 /***************************************************
   Adafruit invests time and resources providing this open source code,

@@ -9,10 +9,9 @@ https://www.adafruit.com/product/4777
 
 ## Repository Contents
 
-- **datasheets**: Datasheets for the components used in this adaptor board.
+- **datasheets**: Datasheets for the components used in this adaptor board
 - **docs**: Documentation related to this adaptor board
-- **firmware**: Information about the micro:bit code to use the eInk
-  FeatherWing
+- **firmware**: Arduino Skectch to test the eInk FeatherWing with a micro:bit
 - **hardware**: The KiCad project files
 - **production**: Gebers to manufacture the board
 
@@ -27,20 +26,22 @@ https://www.adafruit.com/product/4777
 ## License & Attributions
 
 The Arduino test sketch is based on the
-[Adafruit EDP ThinkInk_gray4 example][8].
+[Adafruit EDP ThinkInk_gray4 example][6], with [MIT License][7].
 
-The micro:bit edge connector is MIT Licensed and comes from:
+The micro:bit edge connector is [MIT Licensed][8] and comes from:
 https://github.com/anthonykirby/kicad_microbit_connector
 
 This project has been based on this FeatherWing template:
 https://github.com/ppelleti/FeatherWing-template-KiCad
 
-The template and the rest of the repository (except where stated otherwise)
-is licensed under [the same terms as the KiCad libraries][9], which is the
-[CC-BY-SA 4.0][10] license, with an
-exception that says that electronic designs based on this repository
-are not bound by the attribution and share-alike conditions.
+The FeatherWing template and the rest of the repository (except where stated
+otherwise) is licensed under [the same terms as the KiCad libraries][9],
+which is the [CC-BY-SA 4.0][10] license, with an exception that says that
+electronic designs based on this repository are not bound by the attribution
+and share-alike conditions.
 
-[8]: https://github.com/adafruit/Adafruit_EPD/blob/4.4.3/examples/ThinkInk_gray4/ThinkInk_gray4.ino
+[6]: https://github.com/adafruit/Adafruit_EPD/blob/4.4.3/examples/ThinkInk_gray4/ThinkInk_gray4.ino
+[7]: firmware/eink_feather_test/LICENSE
+[8]: hardware/microbit_connector/LICENSE
 [9]: https://forum.kicad.info/t/kicad-library-licensing/7856
 [10]: https://creativecommons.org/licenses/by-sa/4.0/legalcode
