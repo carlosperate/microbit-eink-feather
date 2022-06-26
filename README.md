@@ -13,6 +13,7 @@ https://www.adafruit.com/product/4777
 - **docs**: Documentation related to this adaptor board
 - **firmware**: Arduino Skectch to test the eInk FeatherWing with a micro:bit
 - **hardware**: The KiCad project files
+- **output**: Project output files, like schematic PDFs.
 - **production**: Gebers to manufacture the board
 
 ## Documentation
