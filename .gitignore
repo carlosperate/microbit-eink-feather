@@ -5,6 +5,11 @@
 # zip might be left behind by accident
 production.zip
 
+# HTML minification
+output/interactive_boom/node_modules
+output/interactive_boom/package-lock.json
+output/interactive_boom/ibom.html
+
 ##################################################################
 # Other KiCAD files not included in the default GitHub gitignore #
 ##################################################################

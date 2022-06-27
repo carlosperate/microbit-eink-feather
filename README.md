@@ -14,7 +14,11 @@ https://www.adafruit.com/product/4777
 - **firmware**: Arduino Skectch to test the eInk FeatherWing with a micro:bit
 - **hardware**: The KiCad project files
 - **output**: Project output files, like schematic PDFs.
-- **production**: Gebers to manufacture the board
+    - **interactive_bom**: BOM output from the
+      [Interactive HTML BOM](https://github.com/openscopeproject/InteractiveHtmlBom)
+      KiCad plugin.
+    - **pdf**: Schematic PDFs.
+    - **production**: Gerber and drill files.
 
 ## Documentation
 

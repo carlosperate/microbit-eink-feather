@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "minify": "minify ibom.html > ibom.min.html"
+  },
+  "dependencies": {
+    "minify": "^9.1.0"
+  }
+}
