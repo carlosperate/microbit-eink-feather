@@ -6,8 +6,8 @@
 
   (title_block
     (title "micro:bit eInk FeatherWing Adaptor")
-    (date "2022-06-07")
-    (rev "V1.0")
+    (date "2022-06-26")
+    (rev "V1.1")
   )
 
   (lib_symbols
@@ -1239,7 +1239,7 @@
     (property "Value" "microbit_edge_connector" (id 1) (at 173.99 40.64 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 187.96 92.71 0)
+    (property "Footprint" "Connector_PCBEdge:4UCON_10156_2x40_P1.27mm_Socket_Horizontal" (id 2) (at 187.96 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.microbit.co.uk/device/pins" (id 3) (at 187.96 92.71 0)
