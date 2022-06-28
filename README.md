@@ -1,6 +1,6 @@
 # micro:bit eInk Feather Adaptor
 
-<p align="center"><img width="50%" alt="front-render-v1 0" src="docs/img/front-render-v1.0.png"></p>
+<p align="center"><img width="50%" alt="front-render-v1 0" src="docs/img/front-render-v1.1.png"></p>
 
 This is a simple FeatherWing to micro:bit adaptor board designed specifically
 for the Adafruit 2.9" Grayscale eInk / ePaper Display FeatherWing:
@@ -13,7 +13,7 @@ https://www.adafruit.com/product/4777
 - **docs**: Documentation related to this adaptor board
 - **firmware**: Arduino Skectch to test the eInk FeatherWing with a micro:bit
 - **hardware**: The KiCad project files
-- **output**: Project output files, like schematic PDFs.
+- **output**: Project output files, like the BOM, schematic PDFs, etc.
     - **interactive_bom**: BOM output from the
       [Interactive HTML BOM](https://github.com/openscopeproject/InteractiveHtmlBom)
       KiCad plugin.
