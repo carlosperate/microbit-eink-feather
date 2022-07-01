@@ -11,7 +11,10 @@
   Written by Limor Fried/Ladyada for Adafruit Industries.
   MIT license, all text above must be included in any redistribution
  ****************************************************/
-#include "Adafruit_ThinkInk.h"
+#include <Adafruit_Microbit.h>
+#include <Adafruit_ThinkInk.h>
+
+#define DELAY_BETWEEN_TESTS (5000)
 
 #define EPD_DC      12  // eInk Data/Command pin
 #define EPD_CS       9  // eInk Chip Select
@@ -22,13 +25,16 @@
 // 2.9" Grayscale Featherwing
 ThinkInk_290_Grayscale4_T5 display(EPD_DC, EPD_RESET, EPD_CS, SRAM_CS, EPD_BUSY);
 
-#define DELAY_BETWEEN_TESTS (5000)
+// micro:bit library
+Adafruit_Microbit_Matrix microbit;
+const uint8_t SMALL_HEART[5] = { B00000, B01010, B01110, B00100, B00000 };
 
 void setup() {
   Serial.begin(115200);
-  while (!Serial) {
-    delay(10);
-  }
+
+  microbit.begin();
+
+  while (!Serial) delay(10);
   Serial.println("Adafruit EPD full update test in mono & grayscale");
 }
 
@@ -38,9 +44,11 @@ void loop() {
 
   // alternate modes!
   if (gray) {
+    microbit.show(microbit.HEART);
     display.begin(THINKINK_GRAYSCALE4);
     Serial.println("Grayscale!");
   } else {
+    microbit.show(SMALL_HEART);
     display.begin(THINKINK_MONO);
     Serial.println("Monochrome!");
   }
