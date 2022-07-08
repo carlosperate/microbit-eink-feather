@@ -25,6 +25,7 @@ jobs:
           libraries: |
             - name: "Adafruit EPD"
             - name: "Adafruit GFX Library"
+            - name: "Adafruit microbit Library"
           sketch-paths: "firmware/eink_feather_test"
 
   lint:

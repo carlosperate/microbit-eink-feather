@@ -13,3 +13,4 @@ Dependencies:
     - [Adafruit EPD](https://github.com/adafruit/Adafruit_EPD) (v4.4.3 at the time of writing)
     - [Adafruit GFX Library](https://github.com/adafruit/Adafruit-GFX-Library/) (v1.11.1 at the time of writing)
         - This also brings [Adafruit BusIO](https://github.com/adafruit/Adafruit_BusIO) as a dependency (v1.11.6 at the time of writing)
+    - [Adafruit microbit Library](https://github.com/adafruit/Adafruit_Microbit) (v1.3.1 at the time of writing)
